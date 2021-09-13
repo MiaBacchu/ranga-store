@@ -21,9 +21,12 @@ body {
   border-right: none;
 }
 .search-button {
+  color:black !important ;
+  background-color: rgb(138, 43, 226) !important;
+  font-size: large !important;
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 25px;
+  margin-left: 13px;
 }
 #all-products {
   display: grid;
