@@ -23,7 +23,7 @@ body {
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 #all-products {
   display: grid;
@@ -36,10 +36,20 @@ body {
   justify-content: center;
 }
 .single-product {
+  position: relative;
+  background-color: rgb(169, 125, 211);
+  height: 600px;
   padding: 10px;
+  margin: 15px;
   transition: 0.6s;
 }
+.sub-div{
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
 .single-product:hover {
+  background-color: rgb(138, 43, 226);
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
